@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter email"
+            android:id="@+id/registerEmail"
+            />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter username"
+            android:id="@+id/registerUsername"
+            android:layout_below="@id/registerEmail"
+            />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter password"
+            android:id="@+id/registerPassword"
+            android:layout_below="@id/registerUsername"
+            />
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Confirm password"
+            android:id="@+id/registerConfirmPass"
+            android:layout_below="@id/registerPassword"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/registerConfirmPass"
+            android:text="Register"
+            android:id="@+id/registerBtn"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
