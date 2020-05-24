@@ -33,6 +33,7 @@
             android:layout_centerHorizontal="true"
             android:hint="Enter password"
             android:id="@+id/registerPassword"
+            android:inputType="textPassword"
             android:layout_below="@id/registerUsername"
             />
 
@@ -42,6 +43,7 @@
             android:layout_centerHorizontal="true"
             android:hint="Confirm password"
             android:id="@+id/registerConfirmPass"
+            android:inputType="textPassword"
             android:layout_below="@id/registerPassword"
             />
 

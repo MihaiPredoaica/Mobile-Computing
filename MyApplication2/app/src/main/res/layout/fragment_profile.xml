@@ -24,8 +24,18 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/profileImg"
-            android:text="Profile picture"
-            android:id="@+id/txtImg"
+            android:text="Change Image"
+            android:id="@+id/changeImage"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/changeImage"
+            android:text="Save Image"
+            android:id="@+id/saveImage"
+            android:enabled="false"
             />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -33,9 +43,10 @@
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/txtImg"
-            android:hint="Username"
+            android:layout_below="@id/saveImage"
             android:textSize="20dp"
+            android:id="@+id/username"
+            android:gravity="clip_horizontal"
             android:background="@drawable/grey_border"
             />
 

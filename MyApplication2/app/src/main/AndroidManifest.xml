@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Register"></activity>
+        <activity
+            android:name=".OneBenefitActivity"
+            android:label="@string/title_activity_one_benefit"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".SubscriptionBenefitsActivity"
+            android:label="@string/title_activity_subscription_benefits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Register" />
         <activity
             android:name=".BottomNavigation"
             android:label="@string/title_activity_bottom_navigation" />
